@@ -1,22 +1,36 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index <= 5; index++) {
+    for (let index = 0; index <= 6; index++) {
         basic.showString("" + (alphabet[index]))
         basic.pause(500)
     }
 })
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index <= 4; index++) {
+    for (let index = 0; index <= 6; index++) {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.pause(1000)
         basic.showString("" + (alphabet[index]))
-        morse = morsecodes[index]
-        for (let _symbol = 0; _symbol <= morse.length; _symbol++) {
-            let morse_teil = 0
-            basic.showString(morse.charAt(morse_teil))
+        basic.clearScreen()
+        morsezeichen = morsecodes[index]
+        for (let morse_teil = 0; morse_teil <= morsezeichen.length - 1; morse_teil++) {
+            if (true) {
+            	
+            } else {
+            	
+            }
+            basic.showString("Hello!")
             basic.pause(500)
             basic.clearScreen()
         }
+        basic.pause(1000)
     }
 })
-let morse = ""
+let morsezeichen = ""
 let morsecodes: string[] = []
 let alphabet: string[] = []
 alphabet = [
