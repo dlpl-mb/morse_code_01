@@ -1,39 +1,24 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index <= 6; index++) {
-        basic.showString("" + (alphabet[index]))
+    for (let index = 0; index <= anz_bst; index++) {
+        basic.showString("" + (liste_buchstaben[index]))
         basic.pause(500)
     }
+    basic.showIcon(IconNames.Yes)
 })
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index <= 6; index++) {
-        basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            `)
+    for (let index2 = 0; index2 <= anz_bst; index2++) {
+        basic.showString("" + (liste_buchstaben[index2]))
+        basic.showString("" + (liste_morsecodes[index2]))
         basic.pause(1000)
-        basic.showString("" + (alphabet[index]))
         basic.clearScreen()
-        morsezeichen = morsecodes[index]
-        for (let morse_teil = 0; morse_teil <= morsezeichen.length - 1; morse_teil++) {
-            if (true) {
-            	
-            } else {
-            	
-            }
-            basic.showString("Hello!")
-            basic.pause(500)
-            basic.clearScreen()
-        }
-        basic.pause(1000)
     }
+    basic.showIcon(IconNames.Yes)
 })
-let morsezeichen = ""
-let morsecodes: string[] = []
-let alphabet: string[] = []
-alphabet = [
+let anz_bst = 0
+let liste_morsecodes: string[] = []
+let liste_buchstaben: string[] = []
+basic.showIcon(IconNames.Yes)
+liste_buchstaben = [
 "A",
 "B",
 "C",
@@ -42,7 +27,7 @@ alphabet = [
 "F",
 "G"
 ]
-morsecodes = [
+liste_morsecodes = [
 ".-",
 "-...",
 "-.-.",
@@ -51,3 +36,4 @@ morsecodes = [
 "..-.",
 "--."
 ]
+anz_bst = liste_buchstaben.length - 1
