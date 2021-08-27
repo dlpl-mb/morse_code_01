@@ -9,7 +9,7 @@ input.onButtonPressed(Button.B, function () {
     for (let index2 = 0; index2 <= anz_bst; index2++) {
         basic.showString("" + (liste_buchstaben[index2]))
         basic.showString("" + (liste_morsecodes[index2]))
-        basic.pause(1000)
+        basic.pause(2000)
         basic.clearScreen()
     }
     basic.showIcon(IconNames.Yes)
