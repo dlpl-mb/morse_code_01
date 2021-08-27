@@ -1,22 +1,27 @@
 
-> Diese Seite bei [https://dlpl-mb.github.io/morse_code_01/](https://dlpl-mb.github.io/morse_code_01/) öffnen
+## Geheimzeichen: Das Morse-Alphabet I
 
-## Als Erweiterung verwenden
+Das Morse-Alphabet diente jahrzehntelang zum Übertragen von Nachrichten und wurde zum Großteil inzwischen von technisch aufwendigen Verfahren abgelöst.
+Inzwischen gibt es unzählige Codes, die sogar noch zusätzlich verschlüsselt werden, damit beispielswiese Geldüberweisungen oder auch militärische Informationen sicherer übermittelt werden können.
+Du wirst nun diese wichtige Morsealphabet kennenlernen.
 
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
+## Die Zeichen des Morsealphabets
+Die Morsezeichen kann man optisch (Bildern) oder akustisch oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
 
-* öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klicke auf **Neues Projekt**
-* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/dlpl-mb/morse_code_01** suchen und importieren
+<img width="50%" src="https://github.com/dlpl-mb/morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/dlpl-mb/morse_code_01/workflows/MakeCode/badge.svg)
+* Wichtig ist schon einmal, dass die Morsezeichen nur den Punkt und den Strich kennen. Jeder Buchstabe hat einen bestimmte Kombination von Punkten und Strichen.
+* Schreib dir die Buchsstaben ersten A bis G auf ein Blatt Papier heraus: Buchstabe und Codes
+* Zwischen den Buchstaben erfolgt immer eine kurze Pause, damit der Empfänger weiß, dass nun ein neues Zeichen beginnt.
 
-Um dieses Repository in MakeCode zu bearbeiten.
+## Programm 1: Codes verwenden 
 
-* öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/dlpl-mb/morse_code_01** ein und klicke auf Importieren
+Du baust nun für dem BBC micro:bit ein erstes Programm zum Zeigen der Morse-Codes für A bis G. 
+Die Aufgaben sind:
+
+* Taste A des micro.bit zeigt die Buchstaben A bis G
+* Taste B zeigt die Morse-Codes für die Zeichen an
+* Später wird dein Programm dann ausgebaut, dass es Code zu anderen micro:bits übertragen und somit anderen senden kann.
 
 ## Blockvorschau
 
