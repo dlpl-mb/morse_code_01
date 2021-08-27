@@ -114,4 +114,4 @@ anz_bst = liste_buchstaben.length - 1
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ https://makecode.com/ }}", "{{ https://github.com/dlpl-mb }}/{{ https://github.com/dlpl-mb/morse_code_01 }}");</script>
+<script>makeCodeRender("{{ https://makecode.com/ }}", "{{ https://github.com/dlpl-mb/ }}/{{ https://github.com/dlpl-mb/morse_code_01/ }}");</script>
