@@ -37,3 +37,4 @@ liste_morsecodes = [
 "--."
 ]
 anz_bst = liste_buchstaben.length - 1
+let text_list = ["a", "b", "c"]
