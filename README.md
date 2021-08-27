@@ -107,14 +107,8 @@ liste_morsecodes = [
 anz_bst = liste_buchstaben.length - 1
 ```
 
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/dlpl-mb/morse_code_01/raw/master/.github/makecode/blocks.png)
-
 #### Metadaten (verwendet für Suche, Rendering)
 
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+=======
 * for PXT/microbit
-
-
-<script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ https://makecode.com/ }}", "{{ https://github.com/dlpl-mb/ }}/{{ https://github.com/dlpl-mb/morse_code_01/ }}");</script>
-
