@@ -113,4 +113,5 @@ anz_bst = liste_buchstaben.length - 1
 #### Metadaten (verwendet für Suche, Rendering)
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+<script>makeCodeRender("{{ https://makecode.com/ }}", "{{ https://github.com/dlpl-mb }}/{{ https://github.com/dlpl-mb/morse_code_01 }}");</script>
