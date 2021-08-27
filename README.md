@@ -11,7 +11,7 @@ Du wirst nun diese wichtige Morsealphabet kennenlernen.
 ## Die Zeichen des Morsealphabets
 Die Morsezeichen kann man optisch (Bildern) oder akustisch (Ton) oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
 
-<img width="50%" src="https://github.com/dlpl-mb/morse_code_01/blob/master/images/morse-tab.png?raw=1">
+<img width="100%" src="https://github.com/dlpl-mb/morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
 * Wie du aus der Tabelle siehst haben Morsezeichen nur den **Punkte** und den **Striche**. Jeder Buchstabe hat einen bestimmte Kombination von Punkten und Strichen.
 * Schreib dir die Buchsstaben ersten ** A bis G ** auf ein Blatt Papier heraus: **Buchstabe** und **Code**
@@ -28,7 +28,7 @@ Du baust nun für dem BBC micro:bit ein erstes Programm zum Zeigen der Morse-Cod
 * Taste B zeigt die Morse-Codes für diese Zeichen an 
 * Später wirst du dein Programm so ausgebauen, dass du Codes zu anderen micro:bits übertragen und somit Anderen senden kann.
 * Probiere das gleich mit dem Button "Dreieck" aus:
-<img width="20%" src="https://github.com/dlpl-mb/morse_code_01/blob/master/images/dreieck.png?raw=1">
+<img width="40%" src="https://github.com/dlpl-mb/morse_code_01/blob/master/images/dreieck.png?raw=1">
 
 ```blocks
 input.onButtonPressed(Button.A, () => { 
@@ -47,29 +47,25 @@ Zugegeben: Das war ganz schön aufwändig, für jeden Buchstaben immer ein eigen
 Wir packen nun alles 7 Buchstaben in ein Programm:
 * Wir müssen alle sieben Buchtaben in eine Liste hinein bringen
 * Dazu gibt es einen besonderen Variablentyp **Array** oder **Liste** 
-* Wähle unter Fortgeschritten **Arrays** und dort setze List ...
-  ``||array:let buchstabenliste = ["A", "B"]||``
-* Wir benötigen eine Schleife von 1 bis 7
+* Wähle unter ``|Fortgeschritten Arrays|`` und dort ``||array:setze Text_List ...||``
+* Ändere den Variablen auf Buchstabenliste
+* Vervollständige die Buchstaben von "A" bis "G"
 
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master 
+### Speicherung der Buchstaben 
+
+* Um auf ein Element dieser Liste zuzugreifen, muss du den **Index** (Reihungsnummer ) innerhalb der liste angeben.
+* Beachte: Eine Liste beginnt in fast allen Programmiersprachen immer mit dem Element Nr. 0, dann 1 bis zum letzten element, das hat dann die Nummer 6 (unsere Liste von A bis G). Das ist sicher sehr gewöhnungsbedürftig - man sollte sich das möglichst schnell angewöhnen und anwenden. 
+
+### Darstellung der Buchstaben 
+
+* Wir benötigen eine Schleife von 0 bis 6
+* Innerhalb der Schleife zeigen wir mit einer **Laufvariable** - wir nennen sie hier **index** auf jeweils ein Element.
+
+
 
 an.
 Die Aktualisierung dieses Bildes kann einige Minuten dauern.
 
-```blocks
-input.onButtonPressed(Button.A, () => { 
-    basic.showString("A");
-});
-
-input.onButtonPressed(Button.B, () => { 
-    basic.showString(".-");
-});
-```
-```blocks
-input.onButtonPressed(Button.B, () => { 
-    basic.showString(".-");
-});
-```
 
 
 ![Eine gerenderte Ansicht der Blöcke](https://github.com/dlpl-mb/morse_code_01/raw/master/.github/makecode/blocks.png)

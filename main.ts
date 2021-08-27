@@ -3,7 +3,6 @@ input.onButtonPressed(Button.A, function () {
         basic.showString("" + (liste_buchstaben[index]))
         basic.pause(500)
     }
-    basic.showIcon(IconNames.Yes)
 })
 input.onButtonPressed(Button.B, function () {
     for (let index2 = 0; index2 <= anz_bst; index2++) {
@@ -12,7 +11,6 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(2000)
         basic.clearScreen()
     }
-    basic.showIcon(IconNames.Yes)
 })
 let anz_bst = 0
 let liste_morsecodes: string[] = []
@@ -37,4 +35,3 @@ liste_morsecodes = [
 "--."
 ]
 anz_bst = liste_buchstaben.length - 1
-let text_list = ["a", "b", "c"]
